@@ -107,6 +107,12 @@ int main()
    string command;
    path currentPath = "D:/Intership/CodeAlpha";
    const path home = "D:/Intership/CodeAlpha";                //saving the home directory in case user wants to moves back
+
+   SetColor(35);
+   cout << "-------------------------------------------------------------------------------------------------------\n";
+   cout << "                                      Basic File Manager\n";
+   cout << "-------------------------------------------------------------------------------------------------------\n\n";
+
     while (true) 
     {
         //changing color of main text
